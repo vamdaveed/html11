@@ -1,0 +1,43 @@
+body
+{
+background-color: antiquewhite;
+font-family: 'Courier New', Courier, monospace;
+font-size: 12px;
+color: black;
+}
+div
+{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+}   
+.first{
+
+    background-color: red;
+}
+.second
+{
+    background-color: green;
+}
+div>p
+{
+    color: red;
+}
+.first:hover
+{
+    background-color: yellow;
+}
+input:required{
+    background-color: red;
+}
+input:optional{
+    background-color: green;
+
+}
+input:read-only{
+    height: 100px;
+}
+input:read-only{
+    
+}
